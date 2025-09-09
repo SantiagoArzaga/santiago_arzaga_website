@@ -1,0 +1,131 @@
+{
+    "sections": [
+        {
+            "id" : 1,
+            "name": "About Me"
+        },
+        {
+            "id" : 2,
+            "name": "My Projects"
+        },
+        {
+            "id" : 3,
+            "name": "Experience"
+        },
+        {
+            "id" : 4,
+            "name": "Certificates"
+        },
+        {
+            "id" : 5,
+            "name": "Tools"
+        },
+        {
+            "id" : 6,
+            "name": "Interests and Hobbies"
+        }
+
+    ],
+
+
+    "jobs": [
+        {
+            "id" : 1,
+            "name": "Mogu",
+            "description" : "This is a description",
+            "duties" : ["this is an array", "of different strings"],
+            "logo" : "logo_mogu.png"
+        },
+        {
+            "id" : 2,
+            "name": "GCC",
+            "description" : "This is a description",
+            "duties" : ["this is an array", "of different strings"],
+            "logo" : "logo_gcc.svg"
+        },
+        {
+            "id" : 3,
+            "name": "Siete",
+            "description" : "This is a description",
+            "duties" : ["this is an array", "of different strings"],
+            "logo" : "logo_siete.png"
+        }
+    ],
+
+    "tools": [
+        {
+            "id" : 1,
+            "name": "JavaScript",
+            "image" : "tools_javascript.png"
+            
+        },
+        {
+            "id" : 2,
+            "name": "TypeScript",
+            "image" : "tools_typescript.svg"
+        },
+        {
+            "id" : 3,
+            "name": "HTML5",
+            "image" : "tools_html.svg"
+        },
+        {
+            "id" : 4,
+            "name": "CSS3",
+            "image" : "tools_css.svg"
+        },
+        {
+            "id" : 5,
+            "name": "Python",
+            "image" : "tools_python.svg"
+        },
+        {
+            "id" : 6,
+            "name": "Unreal Engine 5",
+            "image" : "tools_ue5.png"
+        }
+
+    ],
+
+    "hobbies": [
+        {
+            "id" : 1,
+            "name": "Video Games",
+            "description" : "This is a description",
+            "image" : "hobby_videogames.jpg"
+            
+        },
+        {
+            "id" : 2,
+            "name": "Music",
+            "description" : "This is a description",
+            "image" : "hobby_music_2.png"
+        },
+        {
+            "id" : 4,
+            "name": "Warhammer 40k",
+            "description" : "This is a description",
+            "image" : "hobby_warhammer.jpg"
+        },
+        {
+            "id" : 5,
+            "name": "Rock Climbing",
+            "description" : "This is a description",
+            "image" : "hobby_rockclimbing.png"
+        },
+        {
+            "id" : 6,
+            "name": "Tabletop Role-Playing Games",
+            "description" : "This is a description",
+            "image" : "hobby_dnd.jpg"
+        },
+        {
+            "id" : 3,
+            "name": "Video Editing",
+            "description" : "This is a description",
+            "image" : "hobby_youtube.png"
+        }
+
+    ]
+
+}
