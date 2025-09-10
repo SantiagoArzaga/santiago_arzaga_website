@@ -52,6 +52,37 @@
         }
     ],
 
+    "projects": [
+        {
+            "id" : 1,
+            "name": "NoLimits",
+            "description" : "This is a description",
+            "duties" : ["this is an array", "of different strings"],
+            "logo" : "logo_mogu.png"
+        },
+        {
+            "id" : 2,
+            "name": "Codex: Eternal Eclipse",
+            "description" : "This is a description",
+            "duties" : ["this is an array", "of different strings"],
+            "logo" : "logo_gcc.svg"
+        },
+        {
+            "id" : 3,
+            "name": "Matanga VR Experience",
+            "description" : "This is a description",
+            "duties" : ["this is an array", "of different strings"],
+            "logo" : "logo_siete.png"
+        },
+        {
+            "id" : 4,
+            "name": "FinRep",
+            "description" : "This is a description",
+            "duties" : ["this is an array", "of different strings"],
+            "logo" : "logo_siete.png"
+        }
+    ],
+
     "tools": [
         {
             "id" : 1,
@@ -99,7 +130,7 @@
             "id" : 2,
             "name": "Music",
             "description" : "This is a description",
-            "image" : "hobby_music_2.png"
+            "image" : "hobby_music.png"
         },
         {
             "id" : 4,
