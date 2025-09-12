@@ -56,30 +56,34 @@
         {
             "id" : 1,
             "name": "NoLimits",
-            "description" : "This is a description",
-            "duties" : ["this is an array", "of different strings"],
-            "logo" : "logo_mogu.png"
+            "description" : "Developed a web application for a local calisthenic gym, with features like membership managemente, workout routines, user personal record trackingm, report generation and class scheduling",
+            "duties" : ["Used React, vite, and Typescript for frontend", "used django, PostgreSQL, and Auth0 for backend"],
+            "logo" : "project_nolimits.png",
+            "video" : "project_nolimits.mp4"
         },
         {
             "id" : 2,
             "name": "Codex: Eternal Eclipse",
-            "description" : "This is a description",
-            "duties" : ["this is an array", "of different strings"],
-            "logo" : "logo_gcc.svg"
+            "description" : "Small JRPG Game where I developed all the core systems, including, a turn based combat system, npc interactions, dialogue system, gameplay mechanics, inventory system",
+            "duties" : ["Used Unreal Engine 5, using c++ and blueprints"],
+            "logo" : "project_codex.png",
+            "video" : "project_codex.mp4"
         },
         {
             "id" : 3,
             "name": "Matanga VR Experience",
             "description" : "This is a description",
             "duties" : ["this is an array", "of different strings"],
-            "logo" : "logo_siete.png"
+            "logo" : "project_matanga.png",
+            "video" : "project_matanga.mp4"
         },
         {
             "id" : 4,
             "name": "FinRep",
             "description" : "This is a description",
             "duties" : ["this is an array", "of different strings"],
-            "logo" : "logo_siete.png"
+            "logo" : "project_finrep.png",
+            "video" : "project_finrep.mp4"
         }
     ],
 
@@ -114,7 +118,104 @@
             "id" : 6,
             "name": "Unreal Engine 5",
             "image" : "tools_ue5.png"
+        },
+        {
+            "id" : 7,
+            "name": "C#",
+            "image" : "tools_csharp.png"
+            
+        },
+        {
+            "id" : 8,
+            "name": "SQL",
+            "image" : "tools_sql.png"
+        },
+        {
+            "id" : 9,
+            "name": "React",
+            "image" : "tools_react.svg"
+        },
+        {
+            "id" : 10,
+            "name": "Django",
+            "image" : "tools_django.svg"
+        },
+        {
+            "id" : 11,
+            "name": "Nodejs",
+            "image" : "tools_nodejs.svg"
+        },
+        {
+            "id" : 12,
+            "name": ".NET",
+            "image" : "tools_net.png"
+        },
+        {
+            "id" : 13,
+            "name": "ASP.NET",
+            "image" : "tools_aspnet.png"
+        },
+        {
+            "id" : 14,
+            "name": "Tailwind CSS",
+            "image" : "tools_tailwind.svg"
+        },
+        {
+            "id" : 15,
+            "name": "PostgreSQL",
+            "image" : "tools_postgresql.png"
+        },
+        {
+            "id" : 16,
+            "name": "GitHub",
+            "image" : "tools_github.svg"
+        },
+        {
+            "id" : 17,
+            "name": "Godot",
+            "image" : "tools_godot.svg"
+        },
+        {
+            "id" : 18,
+            "name": "CLion",
+            "image" : "tools_clion.svg"
+        },
+        {
+            "id" : 19,
+            "name": "Visual Studio Code",
+            "image" : "tools_vscode.svg"
+        },
+        {
+            "id" : 20,
+            "name": "Visual Studio",
+            "image" : "tools_vs.png"
+        },
+        {
+            "id" : 21,
+            "name": "Postman",
+            "image" : "tools_postman.svg"
+        },
+        {
+            "id" : 22,
+            "name": "",
+            "image" : "tools_ue5.png"
+        },
+        {
+            "id" : 23,
+            "name": "SAP SuccessFactors",
+            "image" : "tools_sap.png"
+        },
+        {
+            "id" : 24,
+            "name": "Photoshop",
+            "image" : "tools_photoshop.svg"
+        },
+        {
+            "id" : 25,
+            "name": "Premiere Pro",
+            "image" : "tools_premierepro.svg"
         }
+
 
     ],
 

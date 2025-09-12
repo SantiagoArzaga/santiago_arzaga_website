@@ -5,6 +5,7 @@ import GalleryComponent from "./components/GalleryComponent"
 import TagsComponent from "./components/TagsComponent"
 import ThreeModelComponent  from "./components/ThreeModelComponent"
 import TestComponent from "./components/TestComponent"
+import VideoShowcaseComponent from "./components/VideoShowcaseComponent"
 
 import {sections, jobs, tools, hobbies, projects } from  "./data/index.json"
 
@@ -82,42 +83,14 @@ function App() {
 
 
 
-        <div className="relative w-full h-64 overflow-hidden rounded-xl items-center p-2">
-            <video
-              autoPlay
-              loop
-              muted
-              playsInline
-              controlsList="nodownload nofullscreen noremoteplayback"
-              className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
-            >
-              <source src="src/assets/videos/project_codex.mp4"type="video/mp4" />
-            </video>
-            {/* <div className="h-full bg-steel-circuit opacity-75  relative z-10 flex items-center justify-center text-white rounded-lg">
-              <h1 className="text-2xl font-bold">Text on top</h1>
-            </div> */}
-            <div className="bg-steel-circuit/75 h-full p-3 border-2 rounded-2xl 
-                  border-carbon-protocol flex flex-row space-y-4 justify-start relative z-10 "
-            >
-              <img src={`src/assets/showcase/logo_mogu.png`} width={275} height={200}  className="w-275px h-200px rounded-4xl" alt="showcase_logo_image"></img>
-              <div className="m-2 mx-10 ">
-                <h1 className="font-bold text-2xl py-5 px-2 m-1 text-steel-neon underline">test</h1>
-                <p className="py-2 px-3 m-1 text-steel-neon font-bold">esto es una descripcion</p>
-                {/* <ul className="list-disc mx-15">
-                  {item.duties.map((currentListItem, idx) => 
-                    <li key={idx} >{currentListItem}</li> 
-                  )}
-                </ul> */}
-              </div>
-              
-            </div>
-        </div>
-
         <h1 className="font-black font-sans text-center text-4xl p-2 text-outline-2">PROJECTS</h1> {/* Each of this title sections could have a 3d spinner icon*/}
-        <ShowcaseComponent
+        {/* <ShowcaseComponent
           ShowcaseItems={projects}
+        /> */}
+        <VideoShowcaseComponent
+          showcaseItems={projects}
         />
-
+        
         <h1 className="font-black font-sans text-center text-4xl p-2 text-outline-2" >MY EXPERIENCE</h1>
         <ShowcaseComponent
           ShowcaseItems={jobs}
