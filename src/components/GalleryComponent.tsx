@@ -3,9 +3,9 @@ import { hobbies } from  "../data/index.json"
 
 export default function GaleryComponent() {
   return (
-    <div className="bg-steel-alloy m-4 h-screen grid grid-cols-3 gap-1 jusitfy-evenly" >
+    <div className="bg-lava-circuit m-4 h-screen grid grid-cols-3 gap-1 jusitfy-evenly" >
         {hobbies.map((hobby, idx) => 
-        <div key={idx} className="relative group overflow-hidden rounded-2xl m-2">
+        <div key={idx} className="relative group overflow-hidden border-5 border-rust-alloy m-2">
             <img
             src= {`src/assets/hobbies/${hobby.image}`}
             alt={hobby.name}

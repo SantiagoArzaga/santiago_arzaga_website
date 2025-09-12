@@ -17,7 +17,7 @@ export default function VideoShowcaseComponent({showcaseItems} : VideoShowcaseCo
   return (
     <div className="m-6 rounded-2xl space-y-3">
         {showcaseItems.map((item) =>
-            <div className="relative w-full h-64 overflow-hidden rounded-xl items-center p-1.5 ">
+            <div className="relative w-full h-64 overflow-hidden items-center  border-3 border-lava-shadow ">
                 <video
                     autoPlay
                     loop
@@ -29,14 +29,14 @@ export default function VideoShowcaseComponent({showcaseItems} : VideoShowcaseCo
                     <source src={`src/assets/videos/${item.video}`} type="video/mp4" />
                 </video>
 
-                <div className="bg-steel-circuit/90 h-full p-3 border-2 rounded-2xl 
-                        border-carbon-protocol flex flex-row justify-start relative z-10 items-center"
+                <div className="bg-line-filter bg-lava-alloy h-full  border-2 border-rust-shadow 
+                        flex flex-row justify-start relative z-10 items-center"
                 >
                     <img src={`src/assets/showcase/${item.logo}`}   className="w-120 h-51 rounded-4xl" alt="showcase_logo_image"></img>
                     <div className="m-2 mx-10 ">
-                    <h1 className="font-bold text-2xl py-5 px-2 m-1 text-steel-neon underline">{item.name}</h1>
-                    <p className="py-2 px-3 m-1 text-steel-neon font-bold">{item.description}</p>
-                    <ul className="list-disc mx-15">
+                    <h1 className="font-bold text-2xl py-5 px-2 m-1 text-sand-protocol underline">{item.name}</h1>
+                    <p className="py-2 px-3 m-1 text-sand-protocol font-bold">{item.description}</p>
+                    <ul className="list-disc mx-15 text-sand-protocol">
                         {item.duties.map((currentListItem, idx) => 
                         <li key={idx} >{currentListItem}</li> 
                         )}

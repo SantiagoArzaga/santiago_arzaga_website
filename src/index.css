@@ -6,8 +6,6 @@
 
   --color-red-circuit: #954f4d;
   --color-copper-alloy:    #be6b50;
-  --color-amber-neon:      #efb571;
-  --color-amber-alloy:     #d0a654;
   --color-moss-alloy:      #8f853c;
   --color-moss-circuit:   #5d523c;
   --color-carbon-protocol:     #403639;
@@ -19,6 +17,19 @@
   --color-dust-alloy:     #80696b;
   --color-dust-circuit:    #5c4850;
 
+  --color-rust-neon: #38101a;
+  --color-rust-alloy: #240907;
+  --color-rust-circuit: #150b09;
+  --color-rust-shadow: #030205;
+
+  --color-lava-neon:      #fa6f1e;
+  --color-lava-alloy:     #da5914;
+  --color-lava-circuit:      #c94b0c;
+  --color-lava-shadow:     #872c01;
+
+  --color-window-neon : #362c27; /*  #94522c; #5b5870;  #b0663c;*/
+  --color-window-shadow : #150b09; /* #873709; #221c47; #b54a0d;*/
+
   --font-sans: "M PLUS 1 Code", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
                Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji",
                "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -28,7 +39,7 @@
 
 @layer base {
   body {
-    @apply bg-carbon-protocol;
+    @apply bg-rust-shadow;
   }
 }
 
@@ -69,9 +80,9 @@
   }
 
   .bg-blueprint-2 {
-    --c1: #403639;
-    --c2: #464042;
-    --c3: #464042;
+    --c1: #050302;
+    --c2: #3b2418;
+    --c3: #382013;
     --s1: 100px;
     --s2: 20px;
     --p1: -2px;
@@ -98,6 +109,18 @@
     radial-gradient(farthest-side at 50% -33.33%,var(--_g)),
     var(--c2);
     background-size: calc(var(--s)/4.667) var(--s),var(--s) calc(var(--s)/4.667);
+  }
+  .bg-line-filter {
+  --c1: rgba(217, 104, 39, 0.50);           /* lava neon with 80% opacity */
+  --c2: rgba(182, 87, 32, 0.65); /* if you define alloy as RGB */
+  
+  background-color: var(--c1);
+  background-image: linear-gradient(
+    0deg,
+    var(--c1) 60%,
+    var(--c2) 40%
+  );
+  background-size: 10px 10px;
   }
 
   .text-outline-2 {

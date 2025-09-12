@@ -33,14 +33,14 @@
             "id" : 1,
             "name": "Mogu",
             "description" : "This is a description",
-            "duties" : ["this is an array", "of different strings"],
+            "duties" : ["I worked as a gameplay programmer where I developed multiple games for different clients and developers.", "Developed scalable and reusable systems using OOP principles in Unreal Engine 5 with C++ and Unity C#.", "Collaborated with different teams of people to plan, design and implement core game features and mechanics.", "Delivered functional gameplay mechanics and new features under tight deadlines."],
             "logo" : "logo_mogu.png"
         },
         {
             "id" : 2,
             "name": "GCC",
-            "description" : "This is a description",
-            "duties" : ["this is an array", "of different strings"],
+            "description" : "SAP Developer Internship",
+            "duties" : ["Collaborated with the HR team to improve internal IT tools.", "Integrated SAP SuccessFactors tool upgrades for better management and user experience.", "Assisted in the implementation of Single Sign On integration.", "Worked with different teams to improve the workflow of digital processes."],
             "logo" : "logo_gcc.svg"
         },
         {
@@ -72,7 +72,7 @@
         {
             "id" : 3,
             "name": "Matanga VR Experience",
-            "description" : "This is a description",
+            "description" : "",
             "duties" : ["this is an array", "of different strings"],
             "logo" : "project_matanga.png",
             "video" : "project_matanga.mp4"
@@ -80,8 +80,8 @@
         {
             "id" : 4,
             "name": "FinRep",
-            "description" : "This is a description",
-            "duties" : ["this is an array", "of different strings"],
+            "description" : "Deployed a web application that generates financial reports using Excel documents, reducing time and effort required by the company",
+            "duties" : ["Utilized Azure, Django, and React tools", "of different strings"],
             "logo" : "project_finrep.png",
             "video" : "project_finrep.mp4"
         }
@@ -253,8 +253,8 @@
         },
         {
             "id" : 3,
-            "name": "Video Editing",
-            "description" : "This is a description",
+            "name": "YouTube",
+            "description" : "I run a YouTube channel in spanish called Akalecio, where I talk about videogames",
             "image" : "hobby_youtube.png"
         }
 

@@ -17,19 +17,19 @@ export default function ShowcaseComponent({ShowcaseItems} : ShowcaseComponentPro
   return (
     <div>
       {ShowcaseItems.map((item) => 
-        <div className="bg-steel-circuit p-5 m-2 border-2 border-carbon-protocol  flex flex-row space-y-4 justify-start">
-          <img src={`src/assets/showcase/${item.logo}`} width={275} height={200}  alt="showcase_logo_image"></img>
-          <div className="m-2 mx-10">
-            <h1 className="font-bold text-2xl py-5 px-2 m-1 text-steel-neon  underline">{item.name}</h1>
-            <p className="py-2 px-3 m-1 text-steel-neon font-bold">{item.description}</p>
-            <ul className="list-disc mx-15">
-              {item.duties.map((currentListItem, idx) => 
-                <li key={idx} >{currentListItem}</li> 
-              )}
-            </ul>
+          <div className="bg-line-filter p-5 m-5 rounded-xl border-6 border-rust-neon  flex flex-row space-y-4 justify-start">
+            <img src={`src/assets/showcase/${item.logo}`} width={412} height={190}  alt="showcase_logo_image"></img>
+            <div className="m-2 mx-10">
+              <h1 className="font-bold text-2xl py-5 px-2 m-1 text-sand-protocol  underline">{item.name}</h1>
+              <p className="py-2 px-3 m-1 text-sand-protocol font-bold">{item.description}</p>
+              <ul className="list-disc mx-15 text-sand-protocol">
+                {item.duties.map((currentListItem, idx) => 
+                  <li key={idx} >{currentListItem}</li> 
+                )}
+              </ul>
+            </div>
+            
           </div>
-          
-        </div>
       )}
     </div>
 

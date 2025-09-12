@@ -26,24 +26,25 @@ function Model() {
 
 
 export default function ThreeModelComponent() {
-  // const x = useMotionValue(0)
-  // const y = useMotionValue(0)
+//   const x = useMotionValue(0)
+//   const y = useMotionValue(0)
 
-  // // Map mouse position → hue shift
+//   // // Map mouse position → hue shift
 
-  // const palette = ["#954f4d", "#be6b50", "#8f853c", "#719193"]
+  const palette = ["#f7e4cd", "#ed9d6b", "#ed9d6b", "#f7e4cd"]
 
-  //const hue = useTransform(x, [0, window.innerWidth], [0, 360])
-  // const color = useTransform(
-  //       x,
-  //       [0, window.innerWidth / 3, (2 * window.innerWidth) / 3, window.innerWidth],
-  //       palette
-  //   )
+//   //const hue = useTransform(x, [0, window.innerWidth], [0, 360])
+//   const color = useTransform(
+//         x,
+//         [0, window.innerWidth / 3, (2 * window.innerWidth) / 3, window.innerWidth],
+//         palette
+//     )
 
-  // //remove the any later
-  // const handleMouseMove = (e : any) => {
-  //   x.set(e.clientX)
-  //   y.set(e.clientY)
+//   //remove the any later
+//   const handleMouseMove = (e : any) => {
+//     x.set(e.clientX)
+//     y.set(e.clientY)
+//   }
 
 
   return (
@@ -66,8 +67,8 @@ export default function ThreeModelComponent() {
                 <pointLight position={[-4, 0, 4]} intensity={100} color={"#0000ff"}/>
                 <pointLight position={[0, 0, 5]} intensity={50} /> */}
 
-                <pointLight position={[5, 0, -1]}  intensity={60} color={"#42b4ff"}/> {/*right*/}
-                <pointLight position={[-5, 0, -1]}  intensity={60} color={"#50fc3d"}/> {/*left */}
+                <pointLight position={[5, 0, -1]}  intensity={60} color={"#e67b33"}/> {/*right*/}
+                <pointLight position={[-5, 0, -1]}  intensity={60} color={"#e67b33"}/> {/*left */}
                 {/* <pointLight position={[1, 1, 1]} intensity={100} /> */}
                 
                 <Model />
@@ -76,24 +77,25 @@ export default function ThreeModelComponent() {
 
         {/**Move this from here */}
         <div
-        // onMouseMove={handleMouseMove}
+        //onMouseMove={handleMouseMove}
         className=" m-4 flex flex-col justify-start h-screen relative z-0 select-none pointer-events-none"
         >
             <motion.h1
                 
                 //style={{ color }}
-                className="text-[10vw] font-extrabold  tracking-tight relative z-10"
-                // initial={{opacity:0, x:-100}}
-                animate={{opacity: 1, x: 0, color : ["#954f4d", "#be6b50", "#8f853c", "#719193", "#954f4d"]}}
+                className="text-[10vw] font-extrabold  tracking-tight relative z-10 text-sand-protocol"
+                //initial={{opacity:0, x:-100}}
+                animate={{opacity: 1, x: 0, color : palette}}
                 transition={{duration : 8, repeat: Infinity}}
             >
                 Hi,
             </motion.h1>
             <motion.h1
+
                 //style={{ color }}
-                className="text-[10vw] font-extrabold tracking-tight relative z-20"
+                className="text-[10vw] font-extrabold tracking-tight relative z-20 text-sand-protocol"
                 // initial={{opacity:0, x:100}}
-                animate={{opacity: 1, x: 0, color : ["#954f4d", "#be6b50", "#8f853c", "#719193", "#954f4d"]}}
+                animate={{opacity: 1, x: 0, color : palette}}
                 transition={{duration : 8, repeat: Infinity}}
             >
                 I'm Santiago Arzaga
