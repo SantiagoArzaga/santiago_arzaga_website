@@ -12,10 +12,11 @@
   --color-steel-neon:      #9db3ac;
   --color-steel-alloy:    #719193;
   --color-steel-circuit: #3d515b;
-  --color-sand-protocol:      #f7e4cd;
   --color-dust-neon:     #a68d8c;
   --color-dust-alloy:     #80696b;
   --color-dust-circuit:    #5c4850;
+
+  --color-sand-protocol: #f7e4cd;
 
   --color-rust-neon: #38101a;
   --color-rust-alloy: #240907;

@@ -1,6 +1,6 @@
 import { Canvas, useFrame, useLoader } from "@react-three/fiber"
 import { GLTFLoader } from "three/examples/jsm/Addons.js"
-import { motion, scale, useMotionValue, useTransform } from "framer-motion"
+import { motion} from "framer-motion"
 import * as THREE from 'three';
 
 // Component that loads your GLTF model
@@ -100,8 +100,16 @@ export default function ThreeModelComponent() {
             >
                 I'm Santiago Arzaga
             </motion.h1>
+            <motion.p
+              className="text-5xl font-black text-sand-protocol w-3/4"
+              animate={{opacity: 1, x: 0, color : palette}}
+              transition={{duration : 8, repeat: Infinity}}
+            >
+                Software Developer focused on building meaningful solutions with a touch of creativity.
+            </motion.p>
         
         </div>
     </section>
+    // Old PC by anarki3000 is licensed under Creative Commons Attribution
   )
 }

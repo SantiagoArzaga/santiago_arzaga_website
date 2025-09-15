@@ -15,7 +15,7 @@ type VideoShowcaseComponentProps = {
 
 export default function VideoShowcaseComponent({showcaseItems} : VideoShowcaseComponentProps) {
   return (
-    <div className="m-6 rounded-2xl space-y-3">
+    <div className="m-6 rounded-2xl space-y-3s">
         {showcaseItems.map((item) =>
             <div className="relative w-full h-64 overflow-hidden items-center  border-3 border-lava-shadow ">
                 <video
@@ -34,7 +34,7 @@ export default function VideoShowcaseComponent({showcaseItems} : VideoShowcaseCo
                 >
                     <img src={`src/assets/showcase/${item.logo}`}   className="w-120 h-51 rounded-4xl" alt="showcase_logo_image"></img>
                     <div className="m-2 mx-10 ">
-                    <h1 className="font-bold text-2xl py-5 px-2 m-1 text-sand-protocol underline">{item.name}</h1>
+                    <h1 className="font-bold text-2xl px-2 m-1 text-sand-protocol underline">{item.name}</h1>
                     <p className="py-2 px-3 m-1 text-sand-protocol font-bold">{item.description}</p>
                     <ul className="list-disc mx-15 text-sand-protocol">
                         {item.duties.map((currentListItem, idx) => 

@@ -1,4 +1,3 @@
-import { tools } from  "../data/index.json"
 
 type tag = {
   id : number,

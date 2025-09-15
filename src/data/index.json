@@ -32,23 +32,36 @@
         {
             "id" : 1,
             "name": "Mogu",
-            "description" : "This is a description",
-            "duties" : ["I worked as a gameplay programmer where I developed multiple games for different clients and developers.", "Developed scalable and reusable systems using OOP principles in Unreal Engine 5 with C++ and Unity C#.", "Collaborated with different teams of people to plan, design and implement core game features and mechanics.", "Delivered functional gameplay mechanics and new features under tight deadlines."],
-            "logo" : "logo_mogu.png"
+            "description" : "Gameplay programmer and Designer",
+            "duties" : ["I worked as a programmer designer where I developed multiple games for different clients and developers.", "Developed scalable and reusable systems using OOP principles in Unreal Engine 5 with C++ and Unity C#.", "Collaborated with different teams of people to plan, design and implement core game features and mechanics.", "Delivered functional gameplay mechanics and new features under tight deadlines."],
+            "logo" : "logo_mogu.png",
+            "date" : "April 2024 - April 2025"
         },
         {
             "id" : 2,
             "name": "GCC",
-            "description" : "SAP Developer Internship",
-            "duties" : ["Collaborated with the HR team to improve internal IT tools.", "Integrated SAP SuccessFactors tool upgrades for better management and user experience.", "Assisted in the implementation of Single Sign On integration.", "Worked with different teams to improve the workflow of digital processes."],
-            "logo" : "logo_gcc.svg"
+            "description" : "SAP Developer Intern",
+            "duties" : [
+                "Collaborated with the HR team to improve internal IT tools.", 
+                "Integrated SAP SuccessFactors tool upgrades for better management and user experience.", 
+                "Assisted in the implementation of Single Sign On integration.", 
+                "Worked with different teams to improve the workflow of digital processes."
+            ],
+            "logo" : "logo_gcc.png",
+            "date" : "February 2022 - July 2022"
+            
         },
         {
             "id" : 3,
             "name": "Siete",
-            "description" : "This is a description",
-            "duties" : ["this is an array", "of different strings"],
-            "logo" : "logo_siete.png"
+            "description" : "IT Intern",
+            "duties" : [
+                "Implemented an internal system to address high employee turnover, enabling centralized storage of relevant employee information and maintaining historical records.",
+                "Migrated employee data from paper-based files to a digital platform, adopting a more modern organizational culture.",
+                "Developed an internal CRUD application for employee tracking and administration.",
+                "Performed structured cabling installation, as well as administration and support of IT equipment."],
+            "logo" : "logo_siete.png",
+            "date" : "May 2021 - August 2021"
         }
     ],
 
@@ -56,32 +69,43 @@
         {
             "id" : 1,
             "name": "NoLimits",
-            "description" : "Developed a web application for a local calisthenic gym, with features like membership managemente, workout routines, user personal record trackingm, report generation and class scheduling",
-            "duties" : ["Used React, vite, and Typescript for frontend", "used django, PostgreSQL, and Auth0 for backend"],
+            "description" : "Web application for a local calisthenics gym, developed using technologies like React, Vite and Typescript for the front end and Django, Python and PostgreSQL for the backend and database.",
+            "duties" : [
+                "Streamlined onboarding and reduced admin workload with membership management features.", 
+                "Improved user experience with workout routines and class scheduling.", 
+                "Provided trainers with useful data by measuring members progress with user personal record tracking and report generation."
+            ],
             "logo" : "project_nolimits.png",
             "video" : "project_nolimits.mp4"
         },
         {
             "id" : 2,
             "name": "Codex: Eternal Eclipse",
-            "description" : "Small JRPG Game where I developed all the core systems, including, a turn based combat system, npc interactions, dialogue system, gameplay mechanics, inventory system",
-            "duties" : ["Used Unreal Engine 5, using c++ and blueprints"],
+            "description" : "Small JRPG game created using Unreal Engine 5, C++ programming language and UE powerful features like Blueprints, behaviour trees, and widgets.",
+            "duties" : [
+                "Using OOP and SOLID principles, I designed and implemented core gameplay systems that are scalable and mantainable.",
+                "Created different gameplay systems and mechanics like turn based oombat, player inventory, quests and dialogue.", 
+                "Developed interesting and fun UI elements for interacting with the combat system and inventory menus."
+            ],
             "logo" : "project_codex.png",
             "video" : "project_codex.mp4"
         },
         {
             "id" : 3,
             "name": "Matanga VR Experience",
-            "description" : "",
-            "duties" : ["this is an array", "of different strings"],
+            "description" : "Small showcase Virtual Reality game created for the attendees of the Matanga Market using Unreal Engine 5 C++ programming language and UE powerful features like Blueprints and Sequencer.",
+            "duties" : [
+                "Created a short but engaging gameplay loop for visitors to try out Virtual Reality technology and win prizes."
+            ],
             "logo" : "project_matanga.png",
             "video" : "project_matanga.mp4"
         },
         {
             "id" : 4,
             "name": "FinRep",
-            "description" : "Deployed a web application that generates financial reports using Excel documents, reducing time and effort required by the company",
-            "duties" : ["Utilized Azure, Django, and React tools", "of different strings"],
+            "description" : "Web and mobile application for creating financial reports, developed using Flutter and Dart for the frontend and Django, Python and Azure for the backend and database",
+            "duties" : [
+                "Streamlined business processes by generating reports automatically."],
             "logo" : "project_finrep.png",
             "video" : "project_finrep.mp4"
         }
@@ -121,8 +145,8 @@
         },
         {
             "id" : 7,
-            "name": "C#",
-            "image" : "tools_csharp.png"
+            "name": "C++",
+            "image" : "tools_cpp.svg"
             
         },
         {
@@ -141,21 +165,6 @@
             "image" : "tools_django.svg"
         },
         {
-            "id" : 11,
-            "name": "Nodejs",
-            "image" : "tools_nodejs.svg"
-        },
-        {
-            "id" : 12,
-            "name": ".NET",
-            "image" : "tools_net.png"
-        },
-        {
-            "id" : 13,
-            "name": "ASP.NET",
-            "image" : "tools_aspnet.png"
-        },
-        {
             "id" : 14,
             "name": "Tailwind CSS",
             "image" : "tools_tailwind.svg"
@@ -171,14 +180,29 @@
             "image" : "tools_github.svg"
         },
         {
+            "id" : 30,
+            "name": "Docker",
+            "image" : "tools_docker.svg"
+        },
+        {
             "id" : 17,
             "name": "Godot",
             "image" : "tools_godot.svg"
         },
         {
-            "id" : 18,
-            "name": "CLion",
-            "image" : "tools_clion.svg"
+            "id" : 11,
+            "name": "Nodejs",
+            "image" : "tools_nodejs.svg"
+        },
+        {
+            "id" : 12,
+            "name": ".NET",
+            "image" : "tools_net.png"
+        },
+        {
+            "id" : 13,
+            "name": "C#",
+            "image" : "tools_csharp.svg"
         },
         {
             "id" : 19,
@@ -191,19 +215,29 @@
             "image" : "tools_vs.png"
         },
         {
+            "id" : 27,
+            "name": "Unity",
+            "image" : "tools_unity.png"
+        },
+        {
+            "id" : 28,
+            "name": "Blender",
+            "image" : "tools_blender.svg"
+        },
+        {
             "id" : 21,
-            "name": "Postman",
-            "image" : "tools_postman.svg"
+            "name": "MySQL",
+            "image" : "tools_mysql.svg"
         },
         {
             "id" : 22,
-            "name": "",
-            "image" : "tools_ue5.png"
+            "name": "Three.js",
+            "image" : "tools_threejs.svg"
         },
         {
             "id" : 23,
-            "name": "SAP SuccessFactors",
-            "image" : "tools_sap.png"
+            "name": "MongoDB",
+            "image" : "tools_mongodb.png"
         },
         {
             "id" : 24,
@@ -214,8 +248,17 @@
             "id" : 25,
             "name": "Premiere Pro",
             "image" : "tools_premierepro.svg"
+        },
+        {
+            "id" : 18,
+            "name": "CLion",
+            "image" : "tools_clion.svg"
+        },
+        {
+            "id" : 26,
+            "name": "SAP SuccessFactors",
+            "image" : "tools_sap.png"
         }
-
 
     ],
 
@@ -223,38 +266,38 @@
         {
             "id" : 1,
             "name": "Video Games",
-            "description" : "This is a description",
+            "description" : "Besides making them I also enjoy playing them. I enjoy all kinds of games but my favorite genre is FPS",
             "image" : "hobby_videogames.jpg"
             
         },
         {
             "id" : 2,
             "name": "Music",
-            "description" : "This is a description",
+            "description" : "I listen to music a lot, I love getting to know different genres and styles, my favorite artists right now are Mos Def, Neon Indian and Mac DeMarco",
             "image" : "hobby_music.png"
         },
         {
             "id" : 4,
             "name": "Warhammer 40k",
-            "description" : "This is a description",
+            "description" : "Recently discovered the hobby, I play T'au Empire and Dark Eldar",
             "image" : "hobby_warhammer.jpg"
         },
         {
             "id" : 5,
             "name": "Rock Climbing",
-            "description" : "This is a description",
+            "description" : "Mostly do Gym Climbing, I love the challenge of each route, the adrenaline and the peacefulness of it",
             "image" : "hobby_rockclimbing.png"
         },
         {
             "id" : 6,
             "name": "Tabletop Role-Playing Games",
-            "description" : "This is a description",
+            "description" : "I play as a Game Master, which lets me express myself in many different ways, create adventures and characters I can enjoy with my friends",
             "image" : "hobby_dnd.jpg"
         },
         {
             "id" : 3,
             "name": "YouTube",
-            "description" : "I run a YouTube channel in spanish called Akalecio, where I talk about videogames",
+            "description" : "I run a YouTube channel in spanish called Akalecio, where I talk all about videogames",
             "image" : "hobby_youtube.png"
         }
 

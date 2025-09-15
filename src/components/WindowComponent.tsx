@@ -1,4 +1,3 @@
-import type { Component } from "react"
 import type { JSX } from "react"
 
 type WindowComponentProps = {
