@@ -26,7 +26,7 @@ function App() {
           <button className="border-3 px-1 py-1  bg-window-shadow border-lava-alloy text-2xl text-sand-protocol"
             onClick={() => window.open("https://github.com/SantiagoArzaga","_blank", "noopener,noreferrer")}
           >
-            <img src="src/assets/logo_github.png" className="h-10 w-10 p-1"  ></img>
+            <img src="./logo_github.png" className="h-10 w-10 p-1"  ></img>
           </button>
           {/* <button className="border-3 px-4 bg-window-shadow border-lava-alloy text-2xl text-sand-protocol "
             onClick={() => {
@@ -40,7 +40,7 @@ function App() {
           </button> */}
           <a 
             className="btn border-3 px-4 pt-1 bg-window-shadow border-lava-alloy text-2xl text-sand-protocol " 
-            href="src/assets/Santiago Arzaga Resume.pdf"
+            href="./Santiago Arzaga Resume.pdf"
             download
           >
             Resume

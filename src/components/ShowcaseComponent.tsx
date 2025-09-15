@@ -19,7 +19,7 @@ export default function ShowcaseComponent({ShowcaseItems} : ShowcaseComponentPro
     <div>
       {ShowcaseItems.map((item) => 
           <div className="bg-line-filter p-5 m-5 rounded-xl border-6 border-rust-neon  flex flex-row space-y-4 justify-start">
-            <img src={`src/assets/showcase/${item.logo}`} className="w-100 h-50" alt="showcase_logo_image"></img>
+            <img src={`./showcase/${item.logo}`} className="w-100 h-50" alt="showcase_logo_image"></img>
             <div className="m-2 mx-10 w-full">
               <div className="flex flex-row justify-between w-full">
                 <h1 className="font-bold text-3xl py-5 px-1 m-1 text-sand-protocol underline ">{item.name}</h1>

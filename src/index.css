@@ -46,7 +46,7 @@
 
 @layer utilities {
   .bg-noise {
-    background-image: url('src/assets/textures/PixelArtNoise2.png');
+    background-image: url('./textures/PixelArtNoise2.png');
     background-size: cover;
     background-blend-mode: overlay;
   }

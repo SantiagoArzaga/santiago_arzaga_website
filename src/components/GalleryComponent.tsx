@@ -7,7 +7,7 @@ export default function GaleryComponent() {
         {hobbies.map((hobby, idx) => 
         <div key={idx} className="relative group overflow-hidden border-6 border-rust-neon m-2">
             <img
-              src= {`src/assets/hobbies/${hobby.image}`}
+              src= {`./hobbies/${hobby.image}`}
               alt={hobby.name}
               className="w-full h-128 object-cover object-bottom-right transition-transform duration-500 group-hover:scale-110"
             />

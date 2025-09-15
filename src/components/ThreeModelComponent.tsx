@@ -5,7 +5,7 @@ import * as THREE from 'three';
 
 // Component that loads your GLTF model
 function Model() {
-  const gltf = useLoader(GLTFLoader, "src/assets/models/scene.glb")
+  const gltf = useLoader(GLTFLoader, "./models/scene.glb")
   useFrame(() => {
     gltf.scene.rotation.y -= 0.005
   })

@@ -26,13 +26,13 @@ export default function VideoShowcaseComponent({showcaseItems} : VideoShowcaseCo
                     controlsList="nodownload nofullscreen noremoteplayback"
                     className="absolute inset-0 w-full h-full object-cover pointer-events-none select-none"
                 >
-                    <source src={`src/assets/videos/${item.video}`} type="video/mp4" />
+                    <source src={`./videos/${item.video}`} type="video/mp4" />
                 </video>
 
                 <div className="bg-line-filter bg-lava-alloy h-full  border-2 border-rust-shadow 
                         flex flex-row justify-start relative z-10 items-center"
                 >
-                    <img src={`src/assets/showcase/${item.logo}`}   className="w-120 h-51 rounded-4xl" alt="showcase_logo_image"></img>
+                    <img src={`./showcase/${item.logo}`}   className="w-120 h-51 rounded-4xl" alt="showcase_logo_image"></img>
                     <div className="m-2 mx-10 ">
                     <h1 className="font-bold text-2xl px-2 m-1 text-sand-protocol underline">{item.name}</h1>
                     <p className="py-2 px-3 m-1 text-sand-protocol font-bold">{item.description}</p>
